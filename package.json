@@ -1,0 +1,36 @@
+{
+	"name": "empty-directory-tar",
+	"version": "1.0.0",
+	"description": "A Buffer of a Tar archive which only contains a single directory",
+	"author": "Shinnosuke Watanabe (https://github.com/shinnn)",
+	"repository": "shinnn/empty-directory-tar",
+	"license": "MIT-0",
+	"scripts": {
+		"pretest": "eslint .",
+		"test": "node test.js"
+	},
+	"files": [
+		"index.js"
+	],
+	"keywords": [
+		"tar",
+		"empty",
+		"archive",
+		"compressed",
+		"directory",
+		"single",
+		"small",
+		"fixture",
+		"data",
+		"buffer"
+	],
+	"devDependencies": {
+		"@shinnn/eslint-config": "^6.9.0",
+		"eslint": "^5.14.1",
+		"tape": "^4.10.1",
+		"tar": "^4.4.8"
+	},
+	"eslintConfig": {
+		"extends": "@shinnn"
+	}
+}
